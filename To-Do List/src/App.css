@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+#app{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  list-style-position: inside;
+
+}
+body{
+  background-color: beige;
+  font-family:Chewy;
+}
+h1{
+  color: brown;
+}
+#list-container{
+  text-align: center;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0;
+    list-style-position: inside;
+    list-style-type:initial;
+    margin: auto;
+    width: fit-content;
+    text-align: left;
+    color: blue;
+    
+}
+li:hover{
+  color: chartreuse;
+}
+
